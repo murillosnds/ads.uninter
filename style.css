@@ -68,18 +68,18 @@ img {
     height: 11px;
 }
 
-    table {
-      font-size: 14px;
-      border-collapse: collapse;
-      border: 1px solid red;
-    }
+table {
+font-size: 14px;
+border-collapse: collapse;
+border: 1px solid red;
+}
     
-    th, td {
-      padding: 8px 10px;
-      border: 1px solid red;
-    }
+th, td {
+padding: 8px 10px;
+border: 1px solid red;
+}
 
-a a:visited {
+a:visited {
     color: purple;
 }
 a:hover {
@@ -89,5 +89,3 @@ a:hover {
 a:active {
     color: green;
 }
-
-
