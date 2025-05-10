@@ -79,6 +79,10 @@ padding: 8px 10px;
 border: 1px solid red;
 }
 
+a {
+    color: purple;
+}
+
 a:visited {
     color: purple;
 }
