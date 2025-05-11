@@ -62,6 +62,7 @@ img {
     height: auto;
     object-fit: cover;
     display: flex;
+    border-radius: 15px;
 }
 
 li {
