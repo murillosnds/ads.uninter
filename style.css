@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.alterar_tema {
+    width: 60px;
+    height: 40px;
+    background-color: #4d4d4d;
+    border-radius: 120px;
+    position: relative;
+    cursor: pointer;
+}
+
+.alterar_tema .botao-seletor{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.alterar_tema.dark{
+    background-color: #c3c3c3;
+}
+
+.alterar_tema.dark .botao-seletor{
+    left: 20px;
+    background-color: white;
+}
+
+.aviso-tema {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #0F0F0F;
+    color: white;
+    transition: .5s;
+}
+
+body.dark {
+    background-color: #e4e4e4;
+    color: black;
+}
+
+h1 {
+    color: #B6B6B6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    color: #f56150
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    border-radius: 15px;
+}
+
+li {
+    margin-bottom: 2em;
+}
+
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+    
+th, td {
+    padding: 8px 10px;
+    border: 1px solid #555;
+}
+
+a {
+    color: purple;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: green;
+}
